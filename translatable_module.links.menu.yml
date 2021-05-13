@@ -1,0 +1,11 @@
+translatable_module.admin:
+  title: 'Translatable'
+  description: 'Translatable'
+  parent: system.admin_config
+  route_name: translatable_module.admin
+  weight: -100
+translatable_module.admin.settings:
+  title: 'Translatable Form'
+  description: 'Translatable Form'
+  parent: translatable_module.admin
+  route_name: translatable_module.admin.settings

@@ -1,0 +1,14 @@
+translatable_module.admin:
+  path: '/admin/config/translatable'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'translatable'
+  requirements:
+    _permission: 'access content'
+translatable_module.admin.settings:
+  path: '/admin/config/translatable/translatable-form'
+  defaults:
+    _form: '\Drupal\translatable_module\Form\translatableForm'
+    _title: 'Configuration translatable Form'
+  requirements:
+    _permission: 'access content'

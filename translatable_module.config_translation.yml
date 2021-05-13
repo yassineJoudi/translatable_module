@@ -1,0 +1,5 @@
+translatable_module.settings:
+  title: 'My translatable module settings'
+  base_route_name: translatable_module.admin.settings
+  names:
+    - translatable_module.settings
